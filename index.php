@@ -38,7 +38,7 @@ if ( file_exists($_controller_path) ){
     $d = require_once($_controller_path);
     $data['content'] = call_user_func($_action, $_GET);
 } else {
-    die('Error');
+    die('Not Error 2');
 }
 
 
